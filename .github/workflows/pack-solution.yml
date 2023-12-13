@@ -12,11 +12,11 @@ jobs:
         steps:
             - uses: actions/checkout@v2
             - uses: microsoft/powerplatform-actions/pack-solution@v0
-            with:
+              with:
                 solution-file: out/ADOSourceSolution.zip
                 solution-folder: contents
                 solution-type: unmanaged
             - uses: actions/upload-artifact@v2
-            with:
+              with:
                 name: packed-solution
                 path: out/
