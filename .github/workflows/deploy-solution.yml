@@ -21,5 +21,6 @@ jobs:
               with:
                 environment-url: https://org0fceb3ed.crm3.dynamics.com/
                 user-name: ${{ secrets.USERNAME }}
-                password-secret: ${{ secrets.password }}
+                password-secret: ${{ secrets.PASSWORD }}
                 solution-file: ADOSourceSolution.zip
+                
